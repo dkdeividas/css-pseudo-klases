@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(231, 224, 224);
+    width: 155rem;
+    border: 2px solid transparent;
+    padding: 5px;
+    margin: 5px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    border: solid 0.2em rgb(204, 55, 25);
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(55, 46, 180);
+    padding: .1em;
+}
+a:visited{
+    background-color: black
+}
+a:hover{
+    background-color: yellow
+}
+a:active{
+background-color: red;
+}
